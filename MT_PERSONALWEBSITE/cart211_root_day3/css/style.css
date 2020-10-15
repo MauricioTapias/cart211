@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  font-family: monospace, lucida serif, verdana, arial, sans-serif;
+}
+
+header{
+  background-color: ghostwhite;
+  color:  black;
+  padding: 2%;
+}
+
+/* specificity targets elements inside of parents */
+header h1 {
+  font-size: 58px;
+  text-transform: uppercase;
+}
+
+header h2 {
+  font-size: 22px;
+  font-family: times, serif, ;
+  font-style: italic;
+}
+
+nav {
+  background-color: ghostwhite;
+}
+
+nav a:link {
+  background-color: ghostwhite;
+  color: #222;
+  padding: 1% 2%;
+  display: inline-block;
+  text-decoration: :none;
+}
+
+nav a:visited {
+  color: #222;
+}
+
+nav a:hover {
+  color: lime;
+  background-color: #111;
+}
+
+nav a.active {
+  color: white;
+  background-color: black;
+}
+
+article {
+  padding: 2%;
+  color: white;
+  font-family: monospace;
+}
+
+article h1 {
+  font-size: 38px;
+  text-transform: capitalize;
+  margin-bottom: .5%;
+  color: lime;
+}
+
+article h2  {
+  font-size: 28px;
+  text-transform: capitalize;
+  margin-bottom: .5%;
+    color: lime;
+}
+
+article p  {
+  margin-bottom: 1%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* classes start with . and can be used many times on the page */
+.pull_quote {
+  background-color: ghostwhite;
+  color: black;
+  font-size: 22px;
+  padding: 2%;
+  margin: 0 4% 1%;
+  font-family: monospace, georgia, times, serif;
+  font-style: italic;
+  border-left: solid 10px lime;
+}
+
+figure {
+  margin-bottom: 1%;
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  /* border: 1px red solid; */
+}
+
+figure img {
+  /* use % when you want a responsive img */
+  width: 100%;
+}
+
+figcaption {
+font-family: georgia, times, serif;
+  font-size: 16px;
+   font-style: italic;
+  text-align: center;
+}
+
+footer{
+  padding: 2%;
+  background-color: ghostwhite;
+  color: black;
+  font-size: 16px;
+
+}

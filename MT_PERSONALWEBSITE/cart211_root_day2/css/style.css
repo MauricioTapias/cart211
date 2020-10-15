@@ -1,0 +1,45 @@
+/* this is a comment */
+body {
+  background-color: #474AE6;
+  font-family: "gotham", helvetica, verdana, sans-serif;
+}
+
+h1 {
+  font-size: 52px;
+  color: #aliceblue;
+}
+
+h2 {
+font-family: georgia, times, serif;
+font-size: 42px;
+color: #aliceblue;
+font-style:italic;
+text-transform: capitalize;
+  }
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* pseudo class must be in this order
+link, visited, hover, active */
+
+a: link {
+  color: lightyellow;
+  text_transform: uppercase;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+a: visited {
+  color:chartreuse;
+}
+
+a:hover {
+  color:#darkorange;
+}
+
+a:active {
+  color: lawngreen;
+}
